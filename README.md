@@ -1,3 +1,3 @@
 # Image_Segmentation_and_Captioning
 This is a Machine learning project I made during an internship.
-It is a transformer based model which uses Vision Transformer
+It takes input images and provides captions for it describing what is happening in the image and it segments the subjects in the image
