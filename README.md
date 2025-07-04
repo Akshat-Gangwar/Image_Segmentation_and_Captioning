@@ -16,3 +16,9 @@ Guide to Use:
 1) Run Image_Caption_train.ipynb on kaggle
 2) Save the output model in a folder named "saved_models" as "image_captioning_coco_weights" & output 'vocab_coco.file' in a folder named "saved_vocabulary"
 3) Run Pretrain_app.py using streamlit
+
+
+
+
+https://github.com/user-attachments/assets/20e409f0-ae28-4511-9da4-bb694d3c2c5a
+
