@@ -3,9 +3,9 @@
   It takes input images and provides captions for it describing what is happening in the image and it segments the subjects in the image
 
   **Features**
-  -Image Captioning: Generate descriptive captions for images using a Transformer-based model.
-  -Image Segmentation: Segment objects in images using a U-Net or Mask R-CNN model.
-  -Interactive Web Apps: Upload or link images and get captions and segmentation masks instantly.
+  *Image Captioning: Generate descriptive captions for images using a Transformer-based model.
+  *Image Segmentation: Segment objects in images using a U-Net or Mask R-CNN model.
+  *Interactive Web Apps: Upload or link images and get captions and segmentation masks instantly.
   
   Guide to Use:
   1) Run Image_Caption_train.ipynb on kaggle
