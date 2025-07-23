@@ -2,12 +2,34 @@
   This is a Deep learning project I made during an internship.
   It takes input images and provides captions for it describing what is happening in the image and it segments the subjects in the image
 
-  **Features**
-    Image Captioning: Generate descriptive captions for images using a Transformer-based model.
-    Image Segmentation: Segment objects in images using a U-Net or Mask R-CNN model.
-    Interactive Web Apps: Upload or link images and get captions and segmentation masks instantly.
+## Features
+
+- **Image Captioning:** Generate descriptive captions for images using a Transformer-based model.
+- **Image Segmentation:** Segment objects in images using a U-Net or Mask R-CNN model.
+- **Interactive Web Apps:** Upload or link images and get captions and segmentation masks instantly.
+- **Pretrained Models:** Use provided weights for quick inference or train your own models.
   
-  Guide to Use:
+**Install dependencies:**
+   This project requires Python 3.8+ and the following packages:
+   - streamlit
+   - tensorflow
+   - torch
+   - torchvision
+   - numpy
+   - pandas
+   - Pillow
+   - matplotlib
+   - opencv-python
+   - requests
+   - tqdm
+   - scikit-image (if used in notebooks)
+   
+   Install them with:
+   ```bash
+   pip install streamlit tensorflow torch torchvision numpy pandas pillow matplotlib opencv-python requests tqdm
+   ```
+  
+## Guide to Use:
   1) Run Image_Caption_train.ipynb on kaggle
   2) Save the output model in a folder named "saved_models" as "image_captioning_coco_weights" & output 'vocab_coco.file' in a folder named "saved_vocabulary"
   3) Run image-segmentation.ipynb on kaggle
@@ -15,8 +37,9 @@
   5) Run app.py using streamlit
 
 
-*I have also made a version of this which uses pretrained RESNET50 for image segmentation.
- It also marks objects in a box and gives indivisual masks for each object.
+**NOTE**
+  I have also made a version of this which uses pretrained RESNET50 for image segmentation.
+  It also marks objects in a box and gives indivisual masks for each object.
 Guide to Use: 
 1) Run Image_Caption_train.ipynb on kaggle
 2) Save the output model in a folder named "saved_models" as "image_captioning_coco_weights" & output 'vocab_coco.file' in a folder named "saved_vocabulary"
